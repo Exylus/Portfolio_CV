@@ -99,30 +99,27 @@
 						<div class="icon-container">
 							<i class="fas fa-object-group" ></i>
 						</div>
-						<h1>Graphic Design</h1>
+						<h1>Web applications</h1>
 						<p>
-						I can help you create the brand of your dreams with astonishing graphics.
-						This includes but is not limited to; Logo, banners, total rebrandings, ...
+						With my web development and python framework's knowledge, I can participate in Web apps' development.
 						</p>
 					</div>
 					<div class="skill"data-aos="fade-in" data-aos-delay="600">
 						<div class="icon-container">
 							<i class="fas fa-code" ></i>
 						</div>
-						<h1>Web Development</h1>
+						<h1>Logiciels d'automatisation</h1>
 						<p>
-						Being a fullstack developer means, I am at ease with HTML, PHP, CSS, JS,
-						and am still on my way to mastering SQL, REACT.js and some more
+						Mainly working with the Python framework, I can build automation softwares for you.
 						</p>
 					</div>
 					<div class="skill" data-aos="fade-in" data-aos-delay="900">
 						<div class="icon-container">
 							<i class="fas fa-layer-group" ></i>
 						</div>
-						<h1>Web Design</h1>
+						<h1>Web development</h1>
 						<p>
-						Studying graphic, design, I am in constant immersion in this type of project,
-						I am able to design a fully fonctionnal and minutiously designed website.
+						Studying web development & design , I am in constant immersion in this type of project. I am at ease with HTML, CSS, Python, some JS and MySQL.
 						</p>
 					</div>
 				</div>
