@@ -132,7 +132,7 @@
 			<div class="container">
 				<div class="section-heading">
 					<h1>Portfolio</h1>
-					<h6>View some of my recent work</h6>
+					<h6>Quelques travaux</h6>
 				</div>
 			</div>
 			<div class="portfolio-item">
@@ -182,30 +182,30 @@
 			<div class="container">
 				<div class="section-heading">
 					<h1>Work Experience</h1>
-					<h6>Past and current Experience</h6>
+					<h6>Expérience passée et actuelle</h6>
 				</div>
 				<div class="timeline">
 					<ul>
 						<li class="date" data-date="2015-2017" data-aos="fade-right" data-aos-delay="200">
-							<h1>Student at Desert Mountain Highschool</h1>
+							<h1>Étudiant à Desert Mountain Highschool</h1>
 							<p>
-								Graphic Design and Computer Science
+								Design graphique et Informatique
 							</p>
 						</li>
 					</ul>
 					<ul>
 						<li class="date" data-date="2017-2019" data-aos="fade-right" data-aos-delay="400">
-							<h1>Student at Saint Joseph La Salle Troyes</h1>
+							<h1>Étudiant à Saint Joseph La Salle Troyes</h1>
 							<p>
-								Science and Technology 	of Industry and Sustainable Development
+								Sciences et Technologies de l'Industrie et du Développement Durable
 							</p>
 						</li>
 					</ul>
 					<ul>
 						<li class="date" data-date="2019-Present" data-aos="fade-right" data-aos-delay="600">
-							<h1>Student at Digital Gaming School</h1>
+							<h1>Étudiant à Digital Gaming School</h1>
 							<p>
-								Graphic Design & Web Development
+								Design graphique et Développement web
 							</p>
 						</li>
 					</ul>
@@ -217,19 +217,19 @@
 			<div class="container">
 				<div class="section-heading">
 					<h1>Contact</h1>
-					<h6>Let's work together.</h6>
+					<h6>Travaillons ensemble.</h6>
 				</div>
 				<form action="/scripts/form.php" target="_blank" data-aos="fade-up" data-aos-delay="500">
-					<label for="name">Name:</label>
-					<input type="text" id="name" name="name" placeholder="Enter your name.." required>
+					<label for="name">Nom:</label>
+					<input type="text" id="name" name="name" placeholder="Entrez votre nom.." required>
 					<label for="email">Email:</label>
-					<input type="email" id="email" name="email" placeholder="Enter your email.." required>
+					<input type="email" id="email" name="email" placeholder="Entrez votre email.." required>
 					<label for="service">Services:</label>
 					<select name="service" id="service">
-						<option value="Web Development">Web Development</option>
-						<option value="Other">Other</option>
+						<option value="Web Development">Développement web</option>
+						<option value="Other">Autre</option>
 					</select>
-					<label for="subject">Subject:</label>
+					<label for="subject">Sujet:</label>
 					<textarea name="subject" id="subject" cols="10" rows="10"></textarea>
 					<input type="submit" value="Submit">
 				</form>
