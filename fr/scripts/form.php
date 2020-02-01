@@ -11,7 +11,7 @@
   elseif (strpos($email, '@') !== False)
     {
       mail("erwan@thomystery.com", $subject, $message);
-      echo "Email sent!";
+      echo "Email envoyé!";
     }
   else
     {
