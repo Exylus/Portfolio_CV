@@ -108,7 +108,7 @@
 						<div class="icon-container">
 							<i class="fas fa-code" ></i>
 						</div>
-						<h1>Logiciels d'automatisation</h1>
+						<h1>Automation software</h1>
 						<p>
 						Mainly working with the Python framework, I can build automation softwares for you.
 						</p>
