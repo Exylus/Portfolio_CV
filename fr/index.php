@@ -67,7 +67,7 @@ if(isset($_POST['submit'])){
 		<section class="about" id="about">
 			<div class="container">
 				<div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-					<img src="/images/profile.jpeg" alt="">
+					<img src="/images/profile.png" alt="">
 				</div>
 				<div class="about-details" data-aos="fade-left" data-aos-delay="600">
 					<div class="about-heading">
