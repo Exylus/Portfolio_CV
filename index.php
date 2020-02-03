@@ -10,18 +10,19 @@
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 </head>
 <body>
-	<header>
-		<div class="landing-text">
-			<h1>Erwan Thomy</h1>
-			<h6>Technology Lover and Web Developer</h6>
+		<div id="parallax-container">
+			<div class="layer-0"></div>
+			<div class="layer-1"></div>
+			<div class="layer-2"></div>
+			<div class="layer-3"></div>
+			<div class="layer-4"></div>
+			<div class="layer-5"></div>
+			<div class="layer-6"></div>
+			<div class="layer-7"></div>
+			<div class="layer-8"></div>
 		</div>
 		<div class="menu-toggler">
 			<div class="bar half start"></div>
@@ -50,7 +51,7 @@
 				</li>
 			</ul>
 		</nav>
-	</header>
+		<div id="fill">
 		<section class="about" id="about">
 			<div class="container">
 				<div class="profile-img" data-aos="fade-right" data-aos-delay="300">
@@ -217,7 +218,7 @@
 					<h1>Contact</h1>
 					<h6>Let's work together.</h6>
 				</div>
-				<form action="/scripts/form.php" target="_blank" data-aos="fade-up" data-aos-delay="500">
+				<form action="/scripts/form.php" target="_blank" data-aos="zoom-in" data-aos-delay="500">
 					<label for="name">Name:</label>
 					<input type="text" id="name" name="name" placeholder="Enter your name.." required>
 					<label for="email">Email:</label>
@@ -233,17 +234,19 @@
 				</form>
 			</div>
 		</section>
-		<footer class="copyright">
-			<div class="up" id="up">
-				<i class="fas fa-chevron-up"></i>
-			</div>
-			<p>&copy; 2019-2020 Erwan Thomy</p>
-		</footer>
+	</div>
+	<footer class="copyright">
+		<div class="up" id="up">
+			<i class="fas fa-chevron-up"></i>
+		</div>
+		<p>&copy; 2019-2020 Erwan Thomy</p>
+	</footer>
 
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="main.js"></script>
+		<script src="parallax.js"></script>
     <script>
     AOS.init();
   </script>
