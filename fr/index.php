@@ -1,3 +1,15 @@
+<?php
+if(isset($_POST['submit'])){
+    $to = "erwan@thomystery.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $name = $_POST['name'];
+    $subject = $_POST['service'];
+		$message = $_POST['subject'];
+    $headers = "From:" . $from;
+    mail($to,$subject,$message,$headers);
+    echo "Mail Sent. Thank you " . $first_name . ".";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +19,7 @@
 	<meta name="theme-color" content="#ffffff">
 	<title>Erwan Thomy</title>
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="../main.css">
+  <link rel="stylesheet" href="/main.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
 
@@ -55,7 +67,7 @@
 		<section class="about" id="about">
 			<div class="container">
 				<div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-					<img src="../images/profile.jpeg" alt="">
+					<img src="/images/profile.jpeg" alt="">
 				</div>
 				<div class="about-details" data-aos="fade-left" data-aos-delay="600">
 					<div class="about-heading">
@@ -82,6 +94,11 @@
 						<li>
 							<a href="https://www.linkedin.com/in/erwan-thomy" class="icon-link" target="_blank">
 								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/Exylus/" class="icon-link" target="_blank">
+								<i class="fab fa-github-square"></i>
 							</a>
 						</li>
 					</ul>
@@ -135,7 +152,7 @@
 			</div>
 			<div class="portfolio-item">
 				<div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
-					<img src="../images/portitem1.jpeg" alt="">
+					<img src="/images/portitem1.jpeg" alt="">
 				</div>
 				<div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
 					<h6>Oketa</h6>
@@ -157,12 +174,12 @@
 					<a href="#" class="cta">Visit website</a>
 				</div>
 				<div class="portfolio-img has-margin-right" data-aos="fade-left" data-aos-delay="300">
-					<img src="../images/portitem2.jpeg" alt="">
+					<img src="/images/portitem2.jpeg" alt="">
 				</div>
 			</div>
 			<div class="portfolio-item">
 				<div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
-					<img src="../images/portitem3.jpeg" alt="">
+					<img src="/images/portitem3.jpeg" alt="">
 				</div>
 				<div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
 					<h6>Website 3</h6>
@@ -217,7 +234,7 @@
 					<h1>Contact</h1>
 					<h6>Travaillons ensemble.</h6>
 				</div>
-				<form action="/scripts/form.php" target="_blank" data-aos="zoom-in" data-aos-delay="500">
+				<form action="" method="post" data-aos="zoom-in" data-aos-delay="500">
 					<label for="name">Nom:</label>
 					<input type="text" id="name" name="name" placeholder="Entrez votre nom.." required>
 					<label for="email">Email:</label>
@@ -229,7 +246,7 @@
 					</select>
 					<label for="subject">Sujet:</label>
 					<textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-					<input type="submit" value="Submit">
+					<input type="submit" name="submit" value="Envoyer">
 				</form>
 			</div>
 		</section>
@@ -244,8 +261,8 @@
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="../main.js"></script>
-		<script src="../parallax.js"></script>
+    <script src="/main.js"></script>
+		<script src="/parallax.js"></script>
     <script>
     AOS.init();
   </script>

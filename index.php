@@ -1,3 +1,16 @@
+<?php
+if(isset($_POST['submit'])){
+    $to = "erwan@thomystery.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $name = $_POST['name'];
+    $subject = $_POST['service'];
+		$message = $_POST['subject'];
+    $headers = "From:" . $from;
+    mail($to,$subject,$message,$headers);
+    echo "Mail Sent. Thank you " . $first_name . ".";
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -83,6 +96,11 @@
 						<li>
 							<a href="https://www.linkedin.com/in/erwan-thomy" class="icon-link" target="_blank">
 								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/Exylus/" class="icon-link" target="_blank">
+								<i class="fab fa-github-square"></i>
 							</a>
 						</li>
 					</ul>
@@ -218,7 +236,7 @@
 					<h1>Contact</h1>
 					<h6>Let's work together.</h6>
 				</div>
-				<form action="/scripts/form.php" target="_blank" data-aos="zoom-in" data-aos-delay="500">
+				<form action="" method="post" data-aos="zoom-in" data-aos-delay="500">
 					<label for="name">Name:</label>
 					<input type="text" id="name" name="name" placeholder="Enter your name.." required>
 					<label for="email">Email:</label>
@@ -230,7 +248,7 @@
 					</select>
 					<label for="subject">Subject:</label>
 					<textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-					<input type="submit" value="Submit">
+					<input type="submit" name="submit" value="Submit">
 				</form>
 			</div>
 		</section>
